@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raushan.rent.Option4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/size4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:layout_marginTop="10dp"
+            android:entries="@array/prop_vacancy"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:id="@+id/facilities4"
+            android:layout_marginTop="25dp"
+            android:text="Select Facilities" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:textSize="17dp"
+            android:layout_marginTop="25dp"
+            android:text="  Items you have selected are:-" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/editshape"
+            android:text="  Please select by clicking on button" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:id="@+id/rate42"
+            android:layout_marginTop="25dp"
+            android:hint="  No. of Vacancies"
+            android:background="@drawable/editshape"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:id="@+id/rate4"
+            android:layout_marginTop="25dp"
+            android:hint="  Rent"
+            android:background="@drawable/editshape"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:ems="10"
+            android:id="@+id/deposit4"
+            android:layout_marginTop="25dp"
+            android:hint="  Deposit"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:ems="10"
+            android:id="@+id/brokerage4"
+            android:layout_marginTop="25dp"
+            android:hint="  Brokerage"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/available4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/editshape"
+            android:text="  Available From"
+            android:textSize="17dp" />
+
+        <Spinner
+            android:id="@+id/pref4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/editshape"
+            android:entries="@array/prop_tenant"/>
+
+        <EditText
+            android:id="@+id/supplynotes4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@drawable/editshape"
+            android:hint="  Special Supply notes"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/editshape"
+            android:id="@+id/opt4smt"
+            android:layout_marginTop="25dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+</ScrollView>

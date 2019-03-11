@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raushan.rent.Option5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/facilities5"
+            android:background="@drawable/editshape"
+            android:layout_marginTop="25dp"
+            android:text="Select Facilities" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="17dp"
+            android:background="@drawable/editshape"
+            android:layout_marginTop="25dp"
+            android:text="  Items you have selected are:-" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:background="@drawable/editshape"
+            android:layout_marginTop="5dp"
+            android:text="  Please select by clicking on button" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:id="@+id/rent5"
+            android:layout_marginTop="25dp"
+            android:hint="  Tarrif"
+            android:background="@drawable/editshape"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:ems="10"
+            android:id="@+id/vacancy5"
+            android:layout_marginTop="25dp"
+            android:hint="  Room Type"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/supplynotes5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@drawable/editshape"
+            android:hint="  Special Supply notes"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/editshape"
+            android:id="@+id/opt5smt"
+            android:layout_marginTop="25dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</RelativeLayout>

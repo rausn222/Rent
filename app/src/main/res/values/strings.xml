@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Rent</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dialog_title">Facilities given</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_label">Clear all</string>
+    <string name="items_select">Items you have selected are:-</string>
+    <string name="itemss">Please select by clicking on button</string>
+    <string name="action_settings">Settings</string>
+    <array name="prop_type">
+        <item>Select type of property</item>
+        <item>Complete Apartment</item>
+        <item>Sharing Apartment</item>
+        <item>Serviced Apartment</item>
+        <item>PG</item>
+        <item>Hotel</item>
+        <item>Home-Stay</item>
+    </array>
+    <array name="prop_area">
+        <item>Select area of property</item>
+        <item>Airoli</item>
+        <item>Amboli</item>
+        <item>Andheri E</item>
+        <item>Andheri W</item>
+        <item>Bandra E</item>
+        <item>Bandra W</item>
+        <item>Bhandup E</item>
+        <item>Bhandup W</item>
+        <item>Boisar</item>
+        <item>Borivali E</item>
+        <item>Borivali W</item>
+        <item>Chembur</item>
+        <item>Church Gate</item>
+        <item>Colaba</item>
+        <item>Dadar E</item>
+        <item>Dadar W</item>
+        <item>Fort</item>
+        <item>Ghansoli</item>
+        <item>Ghatkopar E</item>
+        <item>Ghatkopar W</item>
+        <item>Goregaon E</item>
+        <item>Goregaon W</item>
+        <item>Govandi E</item>
+        <item>Govandi W</item>
+        <item>Jogeshwari E</item>
+        <item>Jogeshwari W</item>
+        <item>Kalina</item>
+        <item>Kandivali E</item>
+        <item>Kandivali W</item>
+        <item>Khar E</item>
+        <item>Khar W</item>
+        <item>Kharegaon</item>
+        <item>Kopar Khairane</item>
+        <item>Kurla E</item>
+        <item>Kurla W</item>
+        <item>Lower Parel</item>
+        <item>Mahalaxmi</item>
+        <item>Mahim E</item>
+        <item>Mahim W</item>
+        <item>Malad E</item>
+        <item>Malad W</item>
+        <item>Mira Road E</item>
+        <item>Mira Road W</item>
+        <item>Mulund E</item>
+        <item>Mulund W</item>
+        <item>Panvel</item>
+        <item>Parel</item>
+        <item>Powai</item>
+        <item>Prabhadevi</item>
+        <item>Santa Cruz E</item>
+        <item>Santa Cruz W</item>
+        <item>Sion E</item>
+        <item>Sion W</item>
+        <item>Thane E</item>
+        <item>Thane W</item>
+        <item>Vashi</item>
+        <item>Vikhroli E</item>
+        <item>Vikhroli W</item>
+        <item>Vile Parle E</item>
+        <item>Vile Parle W</item>
+        <item>Wadala E</item>
+        <item>Wadala W</item>
+        <item>Worli</item>
+    </array>
+    <array name="prop_varable">
+        <item>Select no of variants of property</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+    </array>
+    <array name="prop_size">
+        <item>Select size of property</item>
+        <item>One BHK</item>
+        <item>Two BHK</item>
+        <item>Three BHK</item>
+        <item>Four BHK</item>
+        <item>Four BHK+</item>
+        <item>One RK</item>
+        <item>Two RK</item>
+        <item>Three Rk</item>
+    </array>
+    <array name="prop_furnish">
+        <item>Select furnishing level</item>
+        <item>Fully Furnished</item>
+        <item>Semi-Furnished</item>
+        <item>Un-Furnished</item>
+    </array>
+    <array name="prop_tenant">
+        <item>Select preferred tenant</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Couple</item>
+        <item>Family</item>
+    </array>
+    <array name="prop_vacancy">
+        <item>Select available vacancy</item>
+        <item>Single Occupancy</item>
+        <item>Double Occupancy</item>
+        <item>Triple Occupancy</item>
+        <item>Four Sharing</item>
+        <item>Hall Sharing</item>
+    </array>
+    <string-array name="facilities_list">
+        <item>AC</item>
+        <item>Balcony</item>
+        <item>Curtains</item>
+        <item>Dinning Table</item>
+        <item>Doctor on Call</item>
+        <item>Fridge</item>
+        <item>Gated Property</item>
+        <item>Gas Connection</item>
+        <item>Geyser</item>
+        <item>Gym</item>
+        <item>House-Keeping</item>
+        <item>Kitchen</item>
+        <item>Laundry</item>
+        <item>Lift</item>
+        <item>Microwave</item>
+        <item>Parking</item>
+        <item>Power Back-up</item>
+        <item>Security Personals</item>
+        <item>Sofa</item>
+        <item>Swimming Pool</item>
+        <item>TV</item>
+        <item>Wardrobes</item>
+        <item>Washing Machine</item>
+        <item>Water Filter</item>
+        <item>Wi-Fi/Internet</item>
+        <item>24x7 Water Supply</item>
+    </string-array>
+</resources>

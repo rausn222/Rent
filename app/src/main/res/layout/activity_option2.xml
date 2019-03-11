@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.raushan.rent.Option2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner8"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editshape"
+            android:entries="@array/prop_size"/>
+
+        <Spinner
+            android:id="@+id/spinner9"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:layout_marginTop="25dp"
+            android:entries="@array/prop_furnish"/>
+
+        <Spinner
+            android:id="@+id/spinner10"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:layout_marginTop="25dp"
+            android:entries="@array/prop_vacancy"/>
+
+        <EditText
+            android:id="@+id/vacancies_id"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/editshape"
+            android:ems="10"
+            android:hint="  Enter Vacancies"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/rent_id"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="  Enter Rent"
+            android:inputType="number" />
+
+        <ProgressBar
+            android:id="@+id/op2progressbar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/date2_id"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/editshape"
+            android:text="  Available From"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/deposit_id"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="  Enter Deposit"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/brokerage_id"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="  Enter Brokerage"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/spinner11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:entries="@array/prop_tenant"/>
+
+        <EditText
+            android:id="@+id/splynotes2_id"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/editshape"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="  Special Supply notes"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/editshape"
+            android:id="@+id/opt2smt"
+            android:layout_marginTop="25dp"
+            android:text="Submit" />
+    </LinearLayout>
+
+</ScrollView>
